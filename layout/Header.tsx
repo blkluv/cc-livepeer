@@ -26,7 +26,7 @@ export default function Header({ search }: IHeader) {
               height={40}
             />
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 text-5xl font-medium	">
-          ARVRtise NFTV
+          NFTV
           </span>
           </div>
         </Link>
