@@ -32,9 +32,9 @@ function Landing() {
                 className="text-5xl text-text-light md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 dark:text-text-dark"
                 data-aos="zoom-y-out"
               >
-                Decentralized video sharing platform built on CyberConnect: {" "}
+                Decentralized video sharing platform built on ARVRtise: {" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-                CyberTube
+                NFTV
                 </span>
               </h1>
               <div className="max-w-3xl mx-auto">
@@ -43,9 +43,9 @@ function Landing() {
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
-                  CyberTube - A decentralized video sharing platform built on CyberConnect using Livepeer.
+                  NFTV - A decentralized video sharing platform built on ARVRtise using Livepeer.
                   <br></br>
-                  Create, share and watch videos, without worrying about your privacy.
+                  Create, share and watch video ads, collect them to receive discounts.
                 </p>
                 <div className="flex justify-center">
                 </div>
