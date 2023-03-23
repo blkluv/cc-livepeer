@@ -14,7 +14,7 @@ export const essenceResponseToVideo = (essence: any): IVideo =>  {
       title: essence.name || "No Title",
       description: essence.metadata?.content,
       location: essence?.location || "",
-      category: essence?.category && essence?.category !== "" ? essence?.category : "Other", 
+      category: essence?.category && essence?.category !== "" ? essence?.category : "Spiritual", 
       thumbnailHash: essence.metadata?.image.length === 46 ? getImage(essence.metadata?.image) :  parseURL(essence.metadata?.image), // essence.metadata?.image.split('/').pop(),
       isAudio: false,
       date: essence.metadata?.issue_date,

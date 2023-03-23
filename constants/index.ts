@@ -1,7 +1,7 @@
-const APP_NAME = 'CyberTube'
+const APP_NAME = 'ARVRtise NFTV'
 const APP_DESCRIPTION = 'A decentralized video sharing platform'
 const APP_VERSION = '0.0.1'
-const IPFS_GATEWAY = 'https://cyberconnect.mypinata.cloud/ipfs/';
+const IPFS_GATEWAY = 'https://gateway.pinata.cloud/ipfs';
 const LIVEPEER_KEY = process.env.NEXT_PUBLIC_LIVEPEER_KEY;
 const GRAPHQL_URI = "https://api.cyberconnect.dev/testnet/"
 const ESSENCE_APP_ID = "cyberconnect-livepeer";

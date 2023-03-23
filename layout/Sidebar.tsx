@@ -60,30 +60,30 @@ export default function Sidebar({ updateCategory }) {
       },
     },
     {
-      name: "Music",
+      name: "Real Estate",
       icon: (
         <AiOutlinePlayCircle
           size={"25px"}
-          color={active === "Music" ? Colors.primary : color}
+          color={active === "Real Estate" ? Colors.primary : color}
         />
       ),
       onClick: () => {
-        setActive("Music");
-        updateCategory("Music");
+        setActive("Real Estate");
+        updateCategory("Real Estate");
       },
     },
 
     {
-      name: "Science & Technology",
+      name: "Blockchain",
       icon: (
         <AiOutlineBulb
           size={"25px"}
-          color={active === "Science & Technology" ? Colors.primary : color}
+          color={active === "Blockchain" ? Colors.primary : color}
         />
       ),
       onClick: () => {
-        setActive("Science & Technology");
-        updateCategory("Science & Technology");
+        setActive("Blockchain");
+        updateCategory("Blockchain");
       },
     },
     {
@@ -100,55 +100,55 @@ export default function Sidebar({ updateCategory }) {
       },
     },
     {
-      name: "Entertainment",
+      name: "Inspiration",
       icon: (
         <AiOutlineSmile
           size={"25px"}
-          color={active === "Entertainment" ? Colors.primary : color}
+          color={active === "Inspiration" ? Colors.primary : color}
         />
       ),
       onClick: () => {
-        setActive("Entertainment");
-        updateCategory("Entertainment");
+        setActive("Inspiration");
+        updateCategory("Inspiration");
       },
     },
     {
-      name: "Education",
+      name: "NFTVersity",
       icon: (
         <IoSchoolOutline
           size={"25px"}
-          color={active === "Education" ? Colors.primary : color}
+          color={active === "NFTVersity" ? Colors.primary : color}
         />
       ),
       onClick: () => {
-        setActive("Education");
-        updateCategory("Education");
+        setActive("NFTVersity");
+        updateCategory("NFTVersity");
       },
     },
     {
-      name: "News",
+      name: "Donations",
       icon: (
         <IoNewspaperOutline
           size={"25px"}
-          color={active === "News" ? Colors.primary : color}
+          color={active === "Donations" ? Colors.primary : color}
         />
       ),
       onClick: () => {
-        setActive("News");
-        updateCategory("News");
+        setActive("Donations");
+        updateCategory("Donations");
       },
     },
     {
-      name: "Other",
+      name: "Spiritual",
       icon: (
         <VscSymbolMisc
           size={"25px"}
-          color={active === "Other" ? Colors.primary : color}
+          color={active === "Spiritual" ? Colors.primary : color}
         />
       ),
       onClick: () => {
-        setActive("Other");
-        updateCategory("Other");
+        setActive("Spiritual");
+        updateCategory("Spiritual");
       },
     },
   ];

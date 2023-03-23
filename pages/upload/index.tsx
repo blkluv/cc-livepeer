@@ -384,15 +384,15 @@ export default function Upload() {
                     onChange={(e) => setCategory(e.target.value)}
                     className="border-borderWhiteGray mt-2 h-12  rounded-md border bg-transparent p-2 focus:outline-none dark:border-gray-600  dark:text-white"
                   >
-                    <option>Music</option>
+                    <option>Real Estate</option>
                     <option>Sports</option>
                     <option>Gaming</option>
-                    <option>News</option>
-                    <option>Entertainment</option>
-                    <option>Education</option>
-                    <option>Science & Technology</option>
+                    <option>Donations</option>
+                    <option>Inspiration</option>
+                    <option>NFTVersity</option>
+                    <option>Blockchain</option>
                     <option>Travel</option>
-                    <option>Other</option>
+                    <option>Spiritual</option>
                   </select>
                 </div>
               </div>
